@@ -1,0 +1,16 @@
+{
+    "name": "my/annotation-test",
+    "authors": [
+        {
+            "name": "Eric Hutson",
+            "email": "ehutson@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/annotations": ">=v1.0"
+    },
+    "autoload": {
+        "psr-0": {"My\\AnnotationTest\\": "src/"}
+    }
+}
