@@ -25,11 +25,6 @@ class Blog
      */
     protected $body;
 
-    function __construct()
-    {
-        echo "Howdy, World!\n";
-    }
-
     public function getId()
     {
         return $this->id;
